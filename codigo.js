@@ -18,7 +18,7 @@ necesarios = 2;
 
 function perder(){
     tablero.style.visibility = 'visible';
-    total.textContent = `total : ${puntos }`;
+    total.textContent = `total : ${puntos}`;
     reintentar.addEventListener('click',()=>{
         location.reload()
     })
